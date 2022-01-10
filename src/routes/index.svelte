@@ -21,8 +21,8 @@
 </script>
 
 <h1>All Articles</h1>
-<ul>
+<ul class="max-w-lg">
   {#each articles as { slug, title}}
-    <li>{title}</li>
+    <li class="text-xl text-fuchsia-600">{title}</li>
   {/each}
 </ul>
