@@ -23,6 +23,6 @@
 <h1>All Articles</h1>
 <ul class="max-w-lg">
   {#each articles as { slug, title}}
-    <li class="text-xl text-fuchsia-600">{title}</li>
+    <li class="text-xl text-fuchsia-600"><a>{title}</a></li>
   {/each}
 </ul>
