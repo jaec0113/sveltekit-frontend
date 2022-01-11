@@ -2,7 +2,7 @@
   import { client } from '../lib/SanityClient'
 
   export async function load({ params }) {
-    const query = `*[_type == "article" && slug == "${params.slug}"]{
+    const query = `*[_type == "article" && slug.current == "${params.slug}"]{
       title,
       body
     }`
@@ -16,9 +16,12 @@
 </script>
   
 <script lang="ts">
+  import PortableText from '@portabletext/svelte'
+  import type { PortableTextBlocks } from '@portabletext/svelte/ptTypes';
+
   type Article = {
     title: string
-    body: string
+    body: PortableTextBlocks
   }
 
   export let article: Article
@@ -27,5 +30,7 @@
 
 <div>
   <h1>{title}</h1>
-  <div>{body}</div>
+  <div class="leading-loose"> 
+    <PortableText blocks={body} />
+  </div>
 </div>
