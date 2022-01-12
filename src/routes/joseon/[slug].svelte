@@ -1,5 +1,5 @@
 <script context="module" lang="ts">
-  import { client } from '../lib/SanityClient'
+  import { client } from '$lib/SanityClient'
 
   export async function load({ params }) {
     const query = `*[_type == "article" && slug.current == "${params.slug}"]{
