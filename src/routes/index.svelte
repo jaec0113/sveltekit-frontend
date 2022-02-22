@@ -27,8 +27,8 @@
 <Nav />
 <Header />
 
-<h1>All Eras</h1>
-<div class="grid">
+<h1 class="text-2xl text-center my-10">All Eras</h1>
+<div class="grid grid-cols-2 gap-4 px-4">
   {#each eras as { slug, eraName, eraSummary } }
     <EraCard eraName={eraName} slug={slug} eraSummary={eraSummary} />
   {/each}

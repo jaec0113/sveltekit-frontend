@@ -1,0 +1,7 @@
+<div>
+  <h3>About This Site</h3>
+  <p>This site aims to share information about the history of Korea (South Korea) from its ancient past to the modern day.</p>
+  <h4>Disclaimer</h4>
+  <p>History can have some 'wiggle room' when it comes to how events are viewed and interpreted. Some aspects are non-debatable. Some event happened or did not happen. These are facts. However, the effects of that factual event, and things like what were the factors that led to that factual event, those can be debated and different opinions can occur. As much as possible, this site will attempt to stick to factual information as much as possible. Additionally, when discussing knock on effects and causal events, this site will attempt to only discuss things that are broadly accepted by the history community.</p>
+  <p>An additional personal disclaimer. I am a Korea history 'hobbiest'. I am interested in Korean history and understanding how the past has effected modern Korea. That being said, I am not a Korean history major, it is not my job/career to study and understand Korean history. So, nothing in this site is 'original'. It is a summary and compilation of existing thoughts and opinions on Korean history.</p>
+</div>
